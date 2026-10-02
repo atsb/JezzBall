@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4B04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67E1C3B3-9C29-43F7-AF79-6B4D7A3A1B90}</UniqueIdentifier>
+      <Extensions>rc;bmp;ico;manifest;txt;aps</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\jezzball.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="src\main.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="src\win32.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\jezzball.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="src\win32.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="resources\resource.h"><Filter>Header Files</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources\resource.rc"><Filter>Resource Files</Filter></ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\jezzball.ico"><Filter>Resource Files</Filter></Image>
+    <Image Include="resources\jezzball_atlas.bmp"><Filter>Resource Files</Filter></Image>
+    <Image Include="resources\about_base.bmp"><Filter>Resource Files</Filter></Image>
+    <Image Include="resources\about_icon.bmp"><Filter>Resource Files</Filter></Image>
+    <Image Include="resources\about_logo.bmp"><Filter>Resource Files</Filter></Image>
+    <Image Include="resources\gameover_base.bmp"><Filter>Resource Files</Filter></Image>
+    <Image Include="resources\gameover_question.bmp"><Filter>Resource Files</Filter></Image>
+    <Image Include="resources\highscore_icon.bmp"><Filter>Resource Files</Filter></Image>
+    <Image Include="resources\highscore_trophy.bmp"><Filter>Resource Files</Filter></Image>
+    <Image Include="resources\highscores_base.bmp"><Filter>Resource Files</Filter></Image>
+    <Image Include="resources\messagebox_base.bmp"><Filter>Resource Files</Filter></Image>
+    <Image Include="resources\newgame_base.bmp"><Filter>Resource Files</Filter></Image>
+    <Image Include="resources\paused_base.bmp"><Filter>Resource Files</Filter></Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\jezzball.manifest"><Filter>Resource Files</Filter></None>
+    <Text Include="resources\README_EMBEDDED_RESOURCES.txt"><Filter>Resource Files</Filter></Text>
+    <Text Include="resources\README_RESOURCES.txt"><Filter>Resource Files</Filter></Text>
+  </ItemGroup>
+</Project>
