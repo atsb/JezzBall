@@ -156,8 +156,6 @@
     <Image Include="resources\newgame_base.bmp" />
     <Image Include="resources\paused_base.bmp" />
     <None Include="resources\jezzball.manifest" />
-    <Text Include="resources\README_EMBEDDED_RESOURCES.txt" />
-    <Text Include="resources\README_RESOURCES.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
