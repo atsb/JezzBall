@@ -44,7 +44,5 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\jezzball.manifest"><Filter>Resource Files</Filter></None>
-    <Text Include="resources\README_EMBEDDED_RESOURCES.txt"><Filter>Resource Files</Filter></Text>
-    <Text Include="resources\README_RESOURCES.txt"><Filter>Resource Files</Filter></Text>
   </ItemGroup>
 </Project>
