@@ -7,7 +7,7 @@ The version that I chose to reverse engineer was the original 1992 Windows 3.1 r
 The code could be cleaner, but reverse engineering never is really clean.  Lots of things that just had to be
 done quickly.
 
-But it all works well, is faithful and clean be cleaned up later.
+But it all works well, is faithful and can be cleaned up later.
 
 Enjoy JezzBall!
 
